@@ -1,23 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-TEST TEST TEST        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="intro">
+      Welcome to the sports quote generator. Every 10 seconds, you'll be delivered with a new, inspiring quote from a legendary athelete.
+      </div>
+      <div className="container">
+      <div className="pic">
+        Picture will go here
+      </div>
+      <div className="quote">
+        Quote will go here
+      </div>
+      <div className="bio">
+        Bio goes here
+      </div>
+      <div className="wiki">
+        Link to Wikipedia goes here
+      </div>
+      </div>
     </div>
   );
 }
