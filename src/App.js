@@ -7,7 +7,6 @@ import Bio from './getBio'
 function App() {
   return (
     <div className="App">
-
       <div className="container">
       <div className="intro">
       <h2>Welcome to the quote generator. Every 10 seconds, you'll be delivered with a new, inspiring quote from a legendary person.</h2>
@@ -32,3 +31,4 @@ function App() {
 export default App;
 
 // Call Math.random on an array of objects, make the index the call
+// TODO - add state
