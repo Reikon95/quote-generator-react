@@ -14,7 +14,8 @@ function App() {
         <img src={face} alt=''/>
       </div>
       <div className="quote">
-        Quote will go here
+      "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
       </div>
         <div className="name">
           Name here

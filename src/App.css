@@ -6,8 +6,6 @@
   grid-template-columns: 20% 20% 20% 20% 20%;
   grid-template-rows: 20% 20% 20% 20% 20%;
   background-color: blue;
-  width: 100vh;
-  height: 100vh;
   grid-gap: 10px;
 
 
@@ -31,7 +29,8 @@
 }
 
 .quote {
-  grid-row-start: 3;
+  grid-row: 4/6;
+  grid-column: 10/20;
 
 }
 
