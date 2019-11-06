@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import face from './face.png';
+import Name from './getName'
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       "CSS can do one"
       </div>
         <div className="name">
-          Cameron Blackwood (name div)
+          <Name name="Cameron Blackwood"/>
         </div>
       <div className="bio">
         Cameron Blackwood is a 24 year old software engineer from London, read more about him
