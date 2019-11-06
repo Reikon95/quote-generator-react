@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import face from './face.png';
 import Name from './getName'
+import Bio from './getBio'
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
           <Name name="Cameron Blackwood"/>
         </div>
       <div className="bio">
-        Cameron Blackwood is a 24 year old software engineer from London, read more about him
+        <Bio bio="Cameron Blackwood is a 24 year old software engineer from London, read more about him"/>
       </div>
       </div>
     </div>
@@ -29,3 +30,5 @@ function App() {
 }
 
 export default App;
+
+// Call Math.random on an array of objects, make the index the call
