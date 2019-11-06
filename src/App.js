@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import face from './face.png';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       Welcome to the quote generator. Every 10 seconds, you'll be delivered with a new, inspiring quote from a legendary person.
       </div>
       <div className="pic">
-        Picture will go here
+        <img src={face} alt=''/>
       </div>
       <div className="quote">
         Quote will go here

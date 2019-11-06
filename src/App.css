@@ -6,6 +6,10 @@
   grid-template-columns: 20% 20% 20% 20% 20%;
   grid-template-rows: 20% 20% 20% 20% 20%;
   background-color: blue;
+  width: 100vh;
+  height: 100vh;
+  grid-gap: 10px;
+
 
 }
 
@@ -16,13 +20,28 @@
 
 .pic {
   grid-row-start: 3;
-  grid-row-end: 6;
-  grid-column-start: 2;
-  grid-column-end: span 2;
+  grid-row-end: 5;
+  grid-column: 2/4;
 
+}
+
+.pic img {
+  height: 100%;
+  width: 100%;
 }
 
 .quote {
   grid-row-start: 3;
 
+}
+
+.name {
+  grid-column: 2/3;
+  grid-row: 5/6;
+  color: white;
+}
+
+.bio {
+  grid-row: 5/6;
+  grid-column: 5/50;
 }
