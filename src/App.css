@@ -1,8 +1,28 @@
 .App {
   text-align: center;
 }
+.container {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  background-color: blue;
 
-.intro, .pic, .quote, .bio, .wiki{
-  border: solid black 2px;
 }
 
+.intro {
+  grid-column-start: 5;
+  grid-column-end: 2;
+}
+
+.pic {
+  grid-row-start: 3;
+  grid-row-end: 6;
+  grid-column-start: 2;
+  grid-column-end: span 2;
+
+}
+
+.quote {
+  grid-row-start: 3;
+
+}
