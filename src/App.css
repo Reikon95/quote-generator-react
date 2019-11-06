@@ -6,7 +6,6 @@
   grid-template-columns: 20% 20% 20% 20% 20%;
   grid-template-rows: 20% 20% 20% 20% 20%;
   background-color: blue;
-  grid-gap: 10px;
 
 
 }
@@ -18,8 +17,8 @@
 
 .pic {
   grid-row-start: 3;
-  grid-row-end: 5;
-  grid-column: 2/4;
+  grid-row-end: 6;
+  grid-column: 2/3;
 
 }
 
@@ -30,7 +29,8 @@
 
 .quote {
   grid-row: 4/6;
-  grid-column: 10/20;
+  grid-column: 4/6;
+  overflow: hidden;
 
 }
 
@@ -42,5 +42,5 @@
 
 .bio {
   grid-row: 5/6;
-  grid-column: 5/50;
+  grid-column: 5/6;
 }
